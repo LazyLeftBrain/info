@@ -1,0 +1,41 @@
+
+* what do we do here 
+Our work here is to code.
+But we don't have a common repo yet. 
+Because we are in the learning phase. So yeah. Go and learn first. Let's make agi later. I'll make a video abt everything I know abt agi and send it here.
+Basically this...
+Like I said I found a flaw in [[cyc's][cyc.com]] project. 
+My design of agi binds tightly with computer vision and natural language processing. 
+I've come to the conclusion that I need need to create my own language. 
+I want something user friendly(high-level), efficient .
+It has to be smtg that is created for this one purpose and one purpose only.
+So right now , 
+I'm reading 3 books. 
+1)Fastai's book. 
+2) practical common lisp
+3) elements of computing. 
+And in the future I'm thinking the dragon book - compilers
+I'm thinking of making a video. I'm new to linux and setting it up now only. Soon youtube channel will be there. And  I'll teach u what I know abt agi 
+
+
+* lisp 
+I was thinking is Richard stallman is dumb? Why is elisp slow?  I liked emacs but because of luke smith I was thinking, if emacs is minimal, fast and efficient?
+If the program has to be fast it has to written on c. ( Fully optimised C code will be fastest in most use cases) .
+I went and saw in what language emacs was written in. And some of it was written in C. And I started reading abt why he  rms chose lisp. And it turns it , it's for the extreme configurability and extensibility. Emacs is not a text editor. It's an elisp interpreter. I heard it many time but only now I learnt the meaning. Text editing is one thing it can do. Lisp is the easiest language support most paradigms and features that modern languages has. 
+And at times it has near C efficiency and at times it's faster than C . With all that configurability!!!!  That's so fucking huge!!!  And u know what happened? Idiscovered a window manager and a freaking browser written on common lisp and both projects try to be blend well with emacs as much as I can. 
+StumpWM , Nyxt browser( by atlas engineers). 
+"The most powerful programming language is Lisp. 
+If you don't know Lisp (or its variant, Scheme), you don't 
+know what it means for a programming language to be powerful and elegant 
+(Stallman, How I do my computing)." - RMS 
+Nyxt browser was created because emacs wasn't a good enough browser for the hackers. ( Here hacking means configuring stuff) . And the developers are so fking amazing. If they think they went the wrong route in programming, they don't patch the stuff and do work arounds. They rewrite it!!  They believe that's what will get them make tp a good product. And it all started from a hobby project. They think all the browsers are like notepad ( in terms of being productive in it) . They need a browser like vim or (even better) emacs. Lisp is such an easy yet powerful language. The developers said it's really hard to convince lisp developers to work on other projects because they like lisp that much. Like when making a browser they might have to have some javascript or smtg.
+There are
+
+
+2 AGI projects I've looked into. 
+One is OpenCog which is the mind of infamous Sophia robot. Another one is cyc. 
+OpenCog is written in a dialect of lisp. 
+And cyc has it's own programming language and it's a dialect of lisp too. 
+(Nowadays the lisp is being translated to java coz java is good these days.) 
+And the founder of cyc said development of code is somewhere between 1000 to 50,000 x faster than any modern programming language. 
+The guy who invented lisp John McCarthy also was one of the founders of AI itself. 
